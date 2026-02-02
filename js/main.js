@@ -123,6 +123,15 @@ const makeLanguage = locale => {
             chosenLocale = "id";
 
             return new Language("KoiTranslations/indonesian.json");
+        case "sr":
+        case "sr-latn":
+            chosenLocale = "sr-latn";
+
+            return new Language("KoiTranslations/serbian_latin.json");
+        case "sr-cyrl":
+            chosenLocale = "sr-cyrl";
+
+            return new Language("KoiTranslations/serbian_cyrillic.json");
     }
 };
 

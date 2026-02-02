@@ -57,7 +57,9 @@ Menu.prototype.LANGUAGES = [
     ["uk", "Українська (Ukrainian)"],
     ["it", "Italiano (Italian)"],
     ["fil", "Filipino"],
-    ["id", "Indonesian (Bahasa Indonesia)"]
+    ["id", "Indonesian (Bahasa Indonesia)"],
+    ["sr-latn", "Srpski (Serbian, Latin)"],
+    ["sr-cyrl", "Српски (Serbian, Cyrillic)"]
 ];
 
 /**
